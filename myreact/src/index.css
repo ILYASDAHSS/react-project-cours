@@ -7,7 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+div {
+  text-align: center;
 }
+div h1 {
+  color: #61dafb;
+  font-size: 40px;
+  animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  0% { color: #61dafb; }
+  50% { color: #ff6f61; }
+  100% { color: #61dafb; }
+}
+div p {
+  font-size: 20px;
+}
+
