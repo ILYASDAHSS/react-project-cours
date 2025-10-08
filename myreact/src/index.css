@@ -271,3 +271,6 @@ footer span {
     display: block;
   }
 }
+.main-link.active {
+  background-color: teal;
+}
