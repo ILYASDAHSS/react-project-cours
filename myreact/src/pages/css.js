@@ -1,13 +1,12 @@
 import React from "react";
 import Header from "../comp/header";
 import Footer from "../comp/footer";
-
+import Mainpage from "../comp/Mainpage";
 const Css = () => {
   return (
     <div>
       <Header />
-      <main>Css page</main>
-
+      <Mainpage PageName="This is Css Page" designd="ilyas" />
       <Footer />
     </div>
   );

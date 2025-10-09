@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../comp/header";
 import Footer from "../comp/footer";
-
+import Mainpage from "../comp/Mainpage";
 
 
 const Home = () => {
   return (
     <>
       <Header />
-      <main>Home Page</main>
+      <Mainpage PageName="This is Home Page" designd="ilyas" />
       <Footer />
     </>
   );
